@@ -1,0 +1,11 @@
+#account-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+#account-address {
+    margin: 0;
+}
