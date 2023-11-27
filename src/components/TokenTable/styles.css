@@ -1,0 +1,90 @@
+.table-wrapper {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 12px;
+    width: calc(100vw - 120px);
+}
+
+.table-account {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table {
+    overflow: auto;
+    max-height: 300px;
+}
+
+.table::-webkit-scrollbar{
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+th {
+    height: 24px;
+}
+
+tbody {
+    overflow: hidden;
+}
+
+tbody > tr {
+    height: 60px;
+}
+
+td {
+    vertical-align: middle;
+    padding: 8px;
+    height: 60px;
+}
+
+.token-img {
+    width: 24px;
+    height: 24px;
+}
+
+.network-img {
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+}
+
+.left-collumn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.right-collumn {
+    text-align: end;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.table-account, .table-network {
+    display: flex;
+    font-size: 1rem;
+    margin: 0;
+    align-items: center;
+}
